@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const FeaturedJob = () => {
+    const [featured,setFeatured] = useState([])
+    console.log(featured,setFeatured)
     return (
         <div className="text-center">
             <h1 className="text-5xl">Featured Jobs</h1>
