@@ -1,0 +1,35 @@
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #9873FF;
+  border-radius: 8px;
+
+  box-sizing: border-box;
+  color: #9873FF;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: white;
+}
+
+.button-13:focus {
+  border-color: #9873FF;
+  box-shadow: #9873FF 0 2px 5px 0;
+  outline: 0;
+}

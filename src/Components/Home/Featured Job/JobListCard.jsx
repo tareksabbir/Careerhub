@@ -1,9 +1,39 @@
 /* eslint-disable react/prop-types */
+import "../../../Custom/customButton.css";
+import { IoLocationOutline } from "react-icons/io5";
+import { AiOutlineDollarCircle } from "react-icons/ai";
 
 const JobListCard = ({ job }) => {
   return (
-    <div>
+    <div className="p-10 border rounded-lg">
       <img src={job.logo} className="w-[100px] max-h-[50px]" alt="" />
+      <div className="ml-1">
+        <h1 className="mt-2 text-xl font-semibold">{job.job_title}</h1>
+        <p>{job.company_name}</p>
+      </div>
+      <div className="flex gap-3 mt-2">
+        <button className=" button-13" role="button">
+          {job.remote_or_onsite}
+        </button>
+        <button className="button-13" role="button">
+          {job.job_type}
+        </button>
+      </div>
+      <div className="flex gap-3 mt-2">
+        <div className="flex items-center gap-2">
+          {" "}
+          <IoLocationOutline />
+          <p>{job.contact_information.address}</p>
+        </div>
+        <div className="flex items-center gap-2">
+          {" "}
+          <AiOutlineDollarCircle />
+          <p>{job.salary}</p>
+        </div>
+      </div>
+      <button className="inline-block w-auto px-5 py-2 mt-3 font-semibold text-center text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-purple-400 to-blue-400 hover:bg-gradient-to-b shadow-blue-200 hover:shadow-2xl ">
+        View Details
+      </button>
     </div>
   );
 };
