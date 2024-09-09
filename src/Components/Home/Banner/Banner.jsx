@@ -1,11 +1,5 @@
-
-
 const Banner = () => {
-    return (
-        <div>
-            this thi banner component 
-        </div>
-    );
+  return <div></div>;
 };
 
 export default Banner;

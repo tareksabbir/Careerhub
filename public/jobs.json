@@ -1,5 +1,119 @@
 [
   {
+    "id": 9,
+    "logo": "https://www.freepnglogos.com/uploads/microsoft-logo-png-blue-8.png",
+    "job_title": "Cloud Solutions Architect",
+    "company_name": "Microsoft",
+    "remote_or_onsite": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "130k-170k",
+    "job_description": "Design and implement cloud-based solutions for clients.",
+    "job_responsibility": "Develop cloud architecture, migrate existing systems to the cloud, and optimize cloud infrastructure.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "4-6 years in cloud computing.",
+    "contact_information": {
+      "phone": "01750-00 00 03",
+      "email": "jobs@microsoft.com",
+      "address": "Innovation Hub, Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 16,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1280px-Airbnb_Logo_B%C3%A9lo.svg.png",
+    "job_title": "Customer Experience Specialist",
+    "company_name": "Airbnb",
+    "remote_or_onsite": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "90k-130k",
+    "job_description": "Ensure a high level of customer satisfaction by managing and resolving customer issues.",
+    "job_responsibility": "Provide support to users, resolve complaints, and improve customer experience.",
+    "educational_requirements": "Bachelor's degree in Business or related field.",
+    "experiences": "2-4 years in customer service.",
+    "contact_information": {
+      "phone": "01750-00 00 10",
+      "email": "support@airbnb.com",
+      "address": "Guest House Lane, Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 10,
+    "logo": "https://freelogopng.com/images/all_img/1664035558meta-logo-png.png",
+    "job_title": "UX Researcher",
+    "company_name": "Meta (Facebook)",
+    "remote_or_onsite": "Onsite",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "110k-150k",
+    "job_description": "Conduct user research to understand user needs and behaviors to improve product design.",
+    "job_responsibility": "Design and conduct user research studies, analyze data, and provide actionable insights to design teams.",
+    "educational_requirements": "Master's degree in Human-Computer Interaction or related field.",
+    "experiences": "3+ years in user research.",
+    "contact_information": {
+      "phone": "01750-00 00 04",
+      "email": "hr@meta.com",
+      "address": "Digital City, Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 18,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_logo.svg/1024px-NVIDIA_logo.svg.png",
+    "job_title": "AI Research Scientist",
+    "company_name": "NVIDIA",
+    "remote_or_onsite": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "140k-180k",
+    "job_description": "Conduct research in artificial intelligence and develop innovative AI solutions.",
+    "job_responsibility": "Develop and test AI algorithms, analyze data, and publish research findings.",
+    "educational_requirements": "PhD in Computer Science or related field.",
+    "experiences": "4+ years in AI research.",
+    "contact_information": {
+      "phone": "01750-00 00 12",
+      "email": "jobs@nvidia.com",
+      "address": "Innovation Hub, Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 14,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png",
+    "job_title": "Music Data Analyst",
+    "company_name": "Spotify",
+    "remote_or_onsite": "Remote",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "100k-140k",
+    "job_description": "Analyze music data to provide insights on user behavior and music trends.",
+    "job_responsibility": "Work with large datasets, develop models, and present findings to inform business decisions.",
+    "educational_requirements": "Bachelor's degree in Data Science or related field.",
+    "experiences": "2-4 years in data analysis.",
+    "contact_information": {
+      "phone": "01750-00 00 08",
+      "email": "jobs@spotify.com",
+      "address": "Music City, Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 8,
+    "logo": "https://freelogopng.com/images/all_img/1685901477apple-logo-transparent.png",
+    "job_title": "Product Manager",
+    "company_name": "Apple Inc.",
+    "remote_or_onsite": "Onsite",
+    "location": "Dhaka, Bangladesh",
+    "job_type": "Full Time",
+    "salary": "140k-180k",
+    "job_description": "Oversee product development from concept through launch.",
+    "job_responsibility": "Manage product lifecycle, coordinate with cross-functional teams, and ensure timely product releases.",
+    "educational_requirements": "Bachelor's degree in Business or related field.",
+    "experiences": "5+ years in product management.",
+    "contact_information": {
+      "phone": "01750-00 00 02",
+      "email": "careers@apple.com",
+      "address": "Tech Park, Dhaka, Bangladesh"
+    }
+  },
+  {
     "id": 1,
     "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
     "job_title": "Technical Database Engineer",
@@ -39,7 +153,7 @@
   },
   {
     "id": 3,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
+    "logo": "https://www.freepnglogos.com/uploads/tesla-logo-png-red-31.png",
     "job_title": "Software Engineer",
     "company_name": "Tesla",
     "remote_or_onsite": "Onsite",
@@ -77,7 +191,7 @@
   },
   {
     "id": 5,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
+    "logo": "https://www.freepnglogos.com/uploads/tesla-logo-png-red-31.png",
     "job_title": "Technical Database Engineer",
     "company_name": "Tesla",
     "remote_or_onsite": "Remote",
@@ -132,66 +246,10 @@
       "address": "Avenue 5, Dhaka, Bangladesh"
     }
   },
-  {
-    "id": 8,
-    "logo": "https://images.vexels.com/media/users/3/139567/isolated/lists/582aca4000ab46231333a1df893c947e-apple-logo.png",
-    "job_title": "Product Manager",
-    "company_name": "Apple Inc.",
-    "remote_or_onsite": "Onsite",
-    "location": "Dhaka, Bangladesh",
-    "job_type": "Full Time",
-    "salary": "140k-180k",
-    "job_description": "Oversee product development from concept through launch.",
-    "job_responsibility": "Manage product lifecycle, coordinate with cross-functional teams, and ensure timely product releases.",
-    "educational_requirements": "Bachelor's degree in Business or related field.",
-    "experiences": "5+ years in product management.",
-    "contact_information": {
-      "phone": "01750-00 00 02",
-      "email": "careers@apple.com",
-      "address": "Tech Park, Dhaka, Bangladesh"
-    }
-  },
-  {
-    "id": 9,
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk1Q2lh7aweiNuE3LObL2pp_kWhtffSJckKw&s",
-    "job_title": "Cloud Solutions Architect",
-    "company_name": "Microsoft",
-    "remote_or_onsite": "Remote",
-    "location": "Dhaka, Bangladesh",
-    "job_type": "Full Time",
-    "salary": "130k-170k",
-    "job_description": "Design and implement cloud-based solutions for clients.",
-    "job_responsibility": "Develop cloud architecture, migrate existing systems to the cloud, and optimize cloud infrastructure.",
-    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
-    "experiences": "4-6 years in cloud computing.",
-    "contact_information": {
-      "phone": "01750-00 00 03",
-      "email": "jobs@microsoft.com",
-      "address": "Innovation Hub, Dhaka, Bangladesh"
-    }
-  },
-  {
-    "id": 10,
-    "logo": "https://freelogopng.com/images/all_img/1664035558meta-logo-png.png",
-    "job_title": "UX Researcher",
-    "company_name": "Meta (Facebook)",
-    "remote_or_onsite": "Onsite",
-    "location": "Dhaka, Bangladesh",
-    "job_type": "Full Time",
-    "salary": "110k-150k",
-    "job_description": "Conduct user research to understand user needs and behaviors to improve product design.",
-    "job_responsibility": "Design and conduct user research studies, analyze data, and provide actionable insights to design teams.",
-    "educational_requirements": "Master's degree in Human-Computer Interaction or related field.",
-    "experiences": "3+ years in user research.",
-    "contact_information": {
-      "phone": "01750-00 00 04",
-      "email": "hr@meta.com",
-      "address": "Digital City, Dhaka, Bangladesh"
-    }
-  },
+
   {
     "id": 11,
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPBss61ZSzmBM75JqdYCVqsfqJ4JijX0mt9g&s",
+    "logo": "https://animationvisarts.com/wp-content/uploads/2021/01/IBM-Logo-Design-1972-present.png",
     "job_title": "Systems Analyst",
     "company_name": "IBM",
     "remote_or_onsite": "Remote",
@@ -229,7 +287,7 @@
   },
   {
     "id": 13,
-    "logo": "https://brandslogos.com/wp-content/uploads/images/large/salesforce-logo.png",
+    "logo": "https://seeklogo.com/images/S/salesforce-logo-B4F8C398C0-seeklogo.com.png",
     "job_title": "Salesforce Developer",
     "company_name": "Salesforce",
     "remote_or_onsite": "Remote",
@@ -246,25 +304,7 @@
       "address": "Cloud Hub, Dhaka, Bangladesh"
     }
   },
-  {
-    "id": 14,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png",
-    "job_title": "Music Data Analyst",
-    "company_name": "Spotify",
-    "remote_or_onsite": "Remote",
-    "location": "Dhaka, Bangladesh",
-    "job_type": "Full Time",
-    "salary": "100k-140k",
-    "job_description": "Analyze music data to provide insights on user behavior and music trends.",
-    "job_responsibility": "Work with large datasets, develop models, and present findings to inform business decisions.",
-    "educational_requirements": "Bachelor's degree in Data Science or related field.",
-    "experiences": "2-4 years in data analysis.",
-    "contact_information": {
-      "phone": "01750-00 00 08",
-      "email": "jobs@spotify.com",
-      "address": "Music City, Dhaka, Bangladesh"
-    }
-  },
+
   {
     "id": 15,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png",
@@ -284,25 +324,7 @@
       "address": "Tech Plaza, Dhaka, Bangladesh"
     }
   },
-  {
-    "id": 16,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1280px-Airbnb_Logo_B%C3%A9lo.svg.png",
-    "job_title": "Customer Experience Specialist",
-    "company_name": "Airbnb",
-    "remote_or_onsite": "Remote",
-    "location": "Dhaka, Bangladesh",
-    "job_type": "Full Time",
-    "salary": "90k-130k",
-    "job_description": "Ensure a high level of customer satisfaction by managing and resolving customer issues.",
-    "job_responsibility": "Provide support to users, resolve complaints, and improve customer experience.",
-    "educational_requirements": "Bachelor's degree in Business or related field.",
-    "experiences": "2-4 years in customer service.",
-    "contact_information": {
-      "phone": "01750-00 00 10",
-      "email": "support@airbnb.com",
-      "address": "Guest House Lane, Dhaka, Bangladesh"
-    }
-  },
+
   {
     "id": 17,
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/EBay_logo.png",
@@ -322,25 +344,7 @@
       "address": "Commerce Center, Dhaka, Bangladesh"
     }
   },
-  {
-    "id": 18,
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR25tHvDGrw4Z9mF-b7thXw0ke0wkE2tPqyA&s",
-    "job_title": "AI Research Scientist",
-    "company_name": "NVIDIA",
-    "remote_or_onsite": "Remote",
-    "location": "Dhaka, Bangladesh",
-    "job_type": "Full Time",
-    "salary": "140k-180k",
-    "job_description": "Conduct research in artificial intelligence and develop innovative AI solutions.",
-    "job_responsibility": "Develop and test AI algorithms, analyze data, and publish research findings.",
-    "educational_requirements": "PhD in Computer Science or related field.",
-    "experiences": "4+ years in AI research.",
-    "contact_information": {
-      "phone": "01750-00 00 12",
-      "email": "jobs@nvidia.com",
-      "address": "Innovation Hub, Dhaka, Bangladesh"
-    }
-  },
+
   {
     "id": 19,
     "logo": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-black-icon.png",
