@@ -31,7 +31,7 @@ const JobListCard = ({ job }) => {
           <p>{job.salary}</p>
         </div>
       </div>
-      <button className="inline-block w-auto px-5 py-2 mt-3 font-semibold text-center text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-purple-400 to-blue-400 hover:bg-gradient-to-b shadow-blue-200 hover:shadow-2xl ">
+      <button className="inline-block w-auto px-5 py-2 mt-3 font-semibold text-center text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-purple-400 to-blue-400">
         View Details
       </button>
     </div>
