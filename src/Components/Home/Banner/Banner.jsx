@@ -23,7 +23,7 @@ const Banner = () => {
             </div>
             <div className="mt-10">
               <Link className="px-5 py-3 font-bold text-white border rounded-lg bg-gradient-to-r from-purple-400 to-blue-400">
-                Get Strated
+                Get Started
               </Link>
             </div>
           </div>
