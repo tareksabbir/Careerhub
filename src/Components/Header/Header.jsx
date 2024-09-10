@@ -1,26 +1,37 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <Link
+          className="inline-block font-bold text-transparent bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text"
+          to="/"
+        >
+          Home
+        </Link>
       </li>
       <li>
-        <NavLink to="/statistics">Statistics</NavLink>
+        <Link className="text-purple-500" to="/statistics">
+          Statistics
+        </Link>
       </li>
       <li>
-        <NavLink to="/applied">Applied JOB</NavLink>
+        <Link className="text-purple-500" to="/applied">
+          Applied JOB
+        </Link>
       </li>
       <li>
-        <NavLink to="/blog">Blog</NavLink>
+        <Link className="text-purple-500" to="/blog">
+          Blog
+        </Link>
       </li>
     </>
   );
 
   return (
-    <div>
-      <div className="navbar ">
+    <div className="bg-gradient-to-r from-purple-50 to-blue-50 ">
+      <div className="container mx-auto navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,13 +57,15 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <a className="text-xl btn btn-ghost">CareerHub</a>
+          <a className="text-3xl btn btn-ghost">CareerHub</a>
         </div>
         <div className="hidden navbar-center lg:flex">
           <ul className="px-1 menu menu-horizontal">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <Link className="inline-block w-auto px-5 py-2 mt-3 font-semibold text-center text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-purple-400 to-blue-400">
+            Start Applying
+          </Link>
         </div>
       </div>
     </div>
