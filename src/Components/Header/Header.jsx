@@ -31,8 +31,8 @@ const Header = () => {
 
   return (
     <div className="bg-gradient-to-r from-purple-50 to-blue-50 ">
-      <div className="container mx-auto navbar">
-        <div className="navbar-start">
+      <div className="container mx-auto navbar ">
+        <div className="navbar-start md:mt-10 md:mb-10">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg

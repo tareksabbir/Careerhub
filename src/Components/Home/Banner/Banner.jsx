@@ -4,7 +4,8 @@ const Banner = () => {
   return (
     <>
       <div className="bg-gradient-to-r from-purple-50 to-blue-50">
-        <div className="container flex items-center justify-between mx-auto ">
+        <div className="container mx-auto">
+        <div className="flex items-center justify-between ">
           <div>
             <div className="font-bold md:text-8xl">
               <h1>One Step </h1>
@@ -30,6 +31,8 @@ const Banner = () => {
             <img src={user} alt="" />
           </div>
         </div>
+        </div>
+      
       </div>
     </>
   );
