@@ -31,9 +31,16 @@ const JobListCard = ({ job }) => {
           <p>{job.salary}</p>
         </div>
       </div>
-      <button className="inline-block w-auto px-5 py-2 mt-3 font-semibold text-center text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-purple-400 to-blue-400">
+      <button
+         className="text-[13px] font-semibold  px-4 py-2 border bg-gradient-to-r from-purple-400 to-blue-400 text-white rounded-lg mt-3"
+      >
         View Details
       </button>
+      {/* <button
+         className="text-[13px] font-semibold  px-4 py-2 border bg-black text-white rounded-lg mt-5"
+      >
+        View Details
+      </button> */}
     </div>
   );
 };

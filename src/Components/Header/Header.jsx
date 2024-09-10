@@ -57,14 +57,14 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <a className="text-3xl btn btn-ghost">CareerHub</a>
+          <a className="md:text-3xl btn btn-ghost">CareerHub</a>
         </div>
         <div className="hidden navbar-center lg:flex">
           <ul className="px-1 menu menu-horizontal">{links}</ul>
         </div>
         <div className="navbar-end">
-          <Link className="inline-block w-auto px-5 py-2 mt-3 font-semibold text-center text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-purple-400 to-blue-400">
-            Start Applying
+          <Link
+        className="text-[13px] font-bold px-3 py-1 border bg-gradient-to-r from-purple-400 to-blue-400 text-white rounded">Start Applying
           </Link>
         </div>
       </div>
