@@ -5,7 +5,7 @@ const Banner = () => {
     <>
       <div className="bg-gradient-to-r from-purple-50 to-blue-50">
         <div className="container mx-auto">
-        <div className="flex items-center justify-between ">
+        <div className="flex items-center justify-between mx-5">
           <div>
             <div className="font-bold md:text-8xl">
               <h1>One Step </h1>
