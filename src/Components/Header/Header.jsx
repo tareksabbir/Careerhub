@@ -57,7 +57,7 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <a className="md:text-3xl btn btn-ghost">CareerHub</a>
+          <Link to={"/"} className="md:text-3xl btn btn-ghost">CareerHub</Link>
         </div>
         <div className="hidden navbar-center lg:flex">
           <ul className="px-1 menu menu-horizontal">{links}</ul>
