@@ -28,11 +28,12 @@ const JobListCategory = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-5 mt-10">
+      <div className="grid grid-cols-4 gap-5 mt-20">
         {category.map((item) => (
           <Category key={item.id} item={item}></Category>
         ))}
       </div>
+      
     </div>
   );
 };
