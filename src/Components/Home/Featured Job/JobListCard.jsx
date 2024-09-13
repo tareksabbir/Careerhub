@@ -2,6 +2,7 @@
 import "../../../Custom/customButton.css";
 import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlineDollarCircle } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const JobListCard = ({ job }) => {
   return (
@@ -31,11 +32,11 @@ const JobListCard = ({ job }) => {
           <p>{job.salary}</p>
         </div>
       </div>
-      <button
-         className="text-[13px] font-semibold  px-4 py-2 border bg-gradient-to-r from-purple-400 to-blue-400 text-white rounded-lg mt-3"
-      >
-        View Details
-      </button>
+      <Link to={`/job/${job.id}`}>
+        <button className="text-[13px] font-semibold  px-4 py-2 border bg-gradient-to-r from-purple-400 to-blue-400 text-white rounded-lg mt-3">
+          View Details
+        </button>
+      </Link>
       {/* <button
          className="text-[13px] font-semibold  px-4 py-2 border bg-black text-white rounded-lg mt-5"
       >

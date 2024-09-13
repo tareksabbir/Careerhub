@@ -49,12 +49,12 @@ const FeaturedJob = () => {
             need. Its your future
           </p>
         </div>
-        
-          <div className="grid grid-cols-2 gap-5 mt-20 mb-10">
-            {showJob.map((job) => (
-              <JobListCard key={job.id} loading={loading} job={job} />
-            ))}
-          </div>
+
+        <div className="grid grid-cols-2 gap-5 mt-20 mb-10">
+          {showJob.map((job) => (
+            <JobListCard key={job.id} loading={loading} job={job} />
+          ))}
+        </div>
 
         <div
           onClick={handleButton}
