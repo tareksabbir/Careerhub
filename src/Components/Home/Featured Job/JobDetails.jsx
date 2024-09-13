@@ -16,9 +16,9 @@ const JobDetails = () => {
     <>
       <Background title={"Job Description"}></Background>
 
-      <div className="container px-10 mx-auto my-40">
-        <div className="grid grid-cols-3 gap-5 ">
-          <div className="col-span-2 ">
+      <div className="container px-10 mx-auto my-20 md:my-40">
+        <div className="grid-cols-3 gap-5 md:grid ">
+          <div className="md:col-span-2 ">
             <img src={data.logo} className="w-[100px] max-h-[50px]" alt="" />
             <h1 className="mt-5">
               <span className="font-bold">Job Description: </span>
