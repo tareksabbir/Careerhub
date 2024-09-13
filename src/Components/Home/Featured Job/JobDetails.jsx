@@ -1,6 +1,10 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import Background from "../../Background/Background";
-
+import money from "../../../assets/icons/money.png"
+import calendar from "../../../assets/icons/calendar.png"
+import phone from "../../../assets/icons/phone.png"
+import email from "../../../assets/icons/email.png"
+import address from "../../../assets/icons/Location.png"
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -10,9 +14,6 @@ const JobDetails = () => {
 
   return (
     <>
-      {/* <div className="text-center min-h-[20vh] bg-gradient-to-r from-purple-50 to-blue-50  flex items-center justify-center ">
-        <h1 className="mt-[-50px] text-4xl font-semibold">Job Details</h1>
-      </div> */}
      
       <Background title={"Job Description"}></Background>
      
@@ -37,7 +38,36 @@ const JobDetails = () => {
               <h1 className="mt-5">{data.experiences}</h1>
             </div>
           </div>
-          <div className="rounded-xl bg-gradient-to-r from-purple-50 to-blue-50"></div>
+          <div className="rounded-xl bg-gradient-to-r from-purple-50 to-blue-50">
+            <div className="p-10 ">
+              <h1 className="mb-3 text-lg font-bold"> Job Details</h1>
+              <hr />
+              <div className="flex gap-2 mt-3">
+                <img src={money} alt="" />
+                <h1 ><span className="font-bold">Salary : </span>{data.salary}</h1>
+              </div>
+              <div className="flex gap-2 mt-2">
+                <img src={calendar} alt="" />
+                <h1><span className="font-bold">Job Title : </span><span>{data.job_title}</span></h1>
+              </div>
+              <h1 className="mt-5 mb-3 text-lg font-bold">Contact Information</h1>
+              <hr />
+              <div className="flex gap-2 mt-3">
+                <img src={phone} alt="" />
+                <h1><span className="font-bold">Phone: </span><span>{data.contact_information.phone}</span></h1>
+              </div>
+              <div className="flex gap-2 mt-2">
+                <img src={email} alt="" />
+                <h1><span className="font-bold">Email : </span><span>{data.contact_information.email}</span></h1>
+              </div>
+              <div className="flex gap-2 mt-2">
+                <img src={address} alt="" />
+                <h1><span className="font-bold">Address : </span><span>{data.contact_information.address}</span></h1>
+              </div>
+              
+              
+            </div>
+          </div>
         </div>
       </div>
     </>

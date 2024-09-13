@@ -3,8 +3,8 @@ import social from "../../assets/icons/social.png";
 
 const Footer = () => {
   return (
-    <footer className="p-10 text-white bg-black bg-">
-      <div className="container mx-auto">
+    <footer className="p-10 text-white bg-black">
+      <div className="container py-10 mx-auto">
         <div className="mb-10 footer">
           <aside>
             <Link to={"/"} className="md:text-3xl btn btn-ghost ml-[-20px]">
