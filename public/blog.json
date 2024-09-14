@@ -1,0 +1,46 @@
+[
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/6N2dgnZ/2.png",
+    "title": "JavaScript Objects for Absolute Beginners: A Fun Introduction",
+    "author_img": "https://i.ibb.co/7rFSJx5/girl1.jpg",
+    "author": "Sajal Ali",
+    "posted_date": "August 28, 2023",
+    "reading_time": 4,
+    "hashtags": ["javascript", "coding", "dev"],
+    "description": "JavaScript objects are essential building blocks in JavaScript programming. This blog post offers an engaging introduction to objects, explaining what they are, how to create and manipulate them, and why they are crucial for managing data and functionality in your code. Whether you're new to JavaScript or just need a refresher, this guide will help you understand the basics in a fun and approachable way."
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/RzGzcPg/3.png",
+    "title": "Component lifecycle in React — Class component vs Functional component",
+    "author_img": "https://i.ibb.co/vwGwnhT/boy2.jpg",
+    "author": "Feroze Khan",
+    "posted_date": "July 10, 2023",
+    "reading_time": 10,
+    "hashtags": ["mid_level", "react"],
+    "description": "React’s component lifecycle is a key concept that helps developers understand how components behave during their creation, update, and destruction phases. This blog post delves into the lifecycle methods of class components and the use of hooks in functional components. It provides a comparative look at how each approach manages the component lifecycle, making it easier for developers to choose the best method for their projects."
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/vvTfkcv/4.jpg",
+    "title": "Free images and resources collection for website",
+    "author_img": "https://i.ibb.co/Sn7zB4q/girl2.jpg",
+    "author": "Anmol Baloch",
+    "posted_date": "June 5, 2023",
+    "reading_time": 9,
+    "hashtags": ["development", "resources"],
+    "description": "Finding high-quality visuals and resources can be a challenge, but there are plenty of free options available. This blog post provides a curated list of websites where you can find free images, illustrations, and design resources for your website. It's a valuable guide for developers and designers looking to enhance their projects with high-quality assets without spending a dime."
+  },
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/84Zfw2n/1.jpg",
+    "title": "Top 10 ES6 Features You Must Know",
+    "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+    "author": "Hamza Sohail",
+    "posted_date": "September 15, 2023",
+    "reading_time": 5,
+    "hashtags": ["beginners", "es6"],
+    "description": "ECMAScript 6 (ES6) introduced several new features that enhance JavaScript programming. This blog post highlights the top 10 features of ES6 that every developer should know. From `let` and `const` to arrow functions and template literals, it provides a concise overview of how these features can improve your coding efficiency and make your JavaScript code more robust."
+  }
+]

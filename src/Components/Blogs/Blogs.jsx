@@ -1,9 +1,10 @@
+import Background from "../Background/Background";
 
 
 const Blogs = () => {
     return (
         <div>
-            this is blogs component 
+            <Background title={"Blog"}></Background>
         </div>
     );
 };
