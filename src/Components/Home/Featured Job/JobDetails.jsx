@@ -74,20 +74,51 @@ const JobDetails = () => {
                     <span>{data.contact_information.email}</span>
                   </h1>
                 </div>
-                <div className="flex gap-2 mt-2">
-                  <img src={address} alt="" />
-                  <h1>
-                    <span className="font-bold">Address: </span>
-                  </h1>
-                  <h1>{data.contact_information.address}</h1>
+                {/* <div className="flex flex-wrap items-center gap-2 mt-2">
+                  <img
+                    src={address}
+                    alt=""
+                    className="object-cover "
+                  />
+                  <div className="flex-1">
+                    <h1 className="flex-wrap">
+                      <span className="font-bold">Address: </span>
+                      {data.contact_information.address}
+                    </h1>
+                  </div>
+                </div> */}
+                {/* <div className="flex items-center gap-2 mt-2">
+                  <img
+                    src={address}
+                    alt=""
+                    className="object-cover "
+                  />
+                  <div className="flex-1 overflow-hidden">
+                    <h1 className="truncate">
+                      <span className="font-bold">Address: </span>
+                      {data.contact_information.address}
+                    </h1>
+                  </div>
+                </div> */}
+                <div className="flex items-center gap-2 mt-2">
+                  <img
+                    src={address}
+                    alt=""
+                    className="object-cover"
+                  />
+                  <div className="flex-1">
+                    <h1>
+                      <span className="font-bold">Address: </span>
+                      {data.contact_information.address}
+                    </h1>
+                  </div>
                 </div>
+             
               </div>
             </div>
-           <div  className="w-full py-5 mt-5 font-bold text-center text-white border rounded bg-gradient-to-r from-purple-400 to-blue-400">
-           <Link
-       >Apply Now
-          </Link>
-           </div>
+            <div className="w-full py-5 mt-5 font-bold text-center text-white border rounded bg-gradient-to-r from-purple-400 to-blue-400">
+              <Link>Apply Now</Link>
+            </div>
           </div>
         </div>
       </div>
