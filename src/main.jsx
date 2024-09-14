@@ -7,10 +7,11 @@ import Root from "./Root/Root";
 import Home from "./Components/Home/Home";
 import Statistics from "./Components/Statistics/Statistics";
 import AppliedJob from "./Components/AppliedJob/AppliedJob";
-import Blogs from "./Components/Blogs/Blogs";
 import Error from "./Components/Error/Error";
 import JobDetails from "./Components/Home/Featured Job/JobDetails";
 import JobPage from "./Components/Home/Jobs/JobPage";
+import BlogMain from "./Components/Blog /BlogMain/BlogMain";
+import Details from "./Components/Blog /Blogs/Details";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,9 +42,13 @@ const router = createBrowserRouter([
         element: <JobDetails></JobDetails>,
       },
       {
-        path: "/blog",
-        element: <Blogs></Blogs>,
+        path:"/blog",
+        element:<BlogMain></BlogMain>
+      },{
+        path: "/blog/:id",
+        element: <Details></Details>,
       },
+      
     ],
   },
 ]);
