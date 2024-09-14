@@ -1,4 +1,5 @@
 import { Link, useLoaderData, useParams } from "react-router-dom";
+import toast, { Toaster } from "react-hot-toast";
 import Background from "../../Background/Background";
 import money from "../../../assets/icons/money.png";
 import calendar from "../../../assets/icons/calendar.png";
@@ -10,7 +11,7 @@ const JobDetails = () => {
   const { id } = useParams();
   const jobs = useLoaderData();
   const data = jobs.find((job) => job.id == id);
-  console.log(data);
+  const notify = () => toast.success("Applied Successfully");
 
   return (
     <>
@@ -101,11 +102,7 @@ const JobDetails = () => {
                   </div>
                 </div> */}
                 <div className="flex items-center gap-2 mt-2">
-                  <img
-                    src={address}
-                    alt=""
-                    className="object-cover"
-                  />
+                  <img src={address} alt="" className="object-cover" />
                   <div className="flex-1">
                     <h1>
                       <span className="font-bold">Address: </span>
@@ -113,12 +110,16 @@ const JobDetails = () => {
                     </h1>
                   </div>
                 </div>
-             
               </div>
             </div>
-            <div className="w-full py-5 mt-5 font-bold text-center text-white border rounded bg-gradient-to-r from-purple-400 to-blue-400">
+            <div
+              onClick={notify}
+              className="w-full py-5 mt-5 font-bold text-center text-white border rounded bg-gradient-to-r from-purple-400 to-blue-400"
+            >
               <Link>Apply Now</Link>
             </div>
+          
+            <Toaster position="bottom-right" reverseOrder={false} />
           </div>
         </div>
       </div>
