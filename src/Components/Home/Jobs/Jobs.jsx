@@ -47,8 +47,11 @@ const Jobs = () => {
         ))}
       </div>
 
-      <div onClick={handleButton} className="flex items-center justify-center ">
-        <button className="text-[15px] font-semibold px-4 py-2 border bg-gradient-to-r from-purple-400 to-blue-400 text-white rounded-lg mt-3">
+      <div className="flex items-center justify-center ">
+        <button
+          onClick={handleButton}
+          className="text-[15px] font-semibold px-4 py-2 border bg-gradient-to-r from-purple-400 to-blue-400 text-white rounded-lg mt-3"
+        >
           {showAll ? "Show Less" : "Show All Jobs"}
         </button>
       </div>
