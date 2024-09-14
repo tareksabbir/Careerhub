@@ -2,6 +2,20 @@
 
 CareerHub is a React-based application designed to showcase and practice various React concepts. The platform allows users to view job listings, get detailed information about jobs, apply for them, and see their applied jobs. Additionally, it includes a blog section where users can read articles, mark them as read, and bookmark them. This project demonstrates a range of React features and best practices.
 
+## Key Concepts
+
+This project demonstrates the following React concepts:
+
+- **Reusable Components:** Designed for reuse to ensure consistency and efficiency.
+- **Higher-Order Components:** Enhance the functionality of existing components.
+- **State Management:** Managed using React hooks such as `useState` and `useEffect`.
+- **Prop Drilling:** Data is passed through multiple layers of components.
+- **Local Storage:** Job application data and blog status are stored in local storage.
+- **Custom Hooks:** Encapsulate reusable logic and state management.
+- **React Toast:** Provides notifications and alerts to users.
+- **React Router:** Used for navigating between different pages and routes in the application.
+- **`useLoader` Hook:** Manages loading states when navigating between routes.
+
 ## Features
 
 - **Job Listings:** Browse through a list of available jobs.
@@ -40,18 +54,6 @@ To set up CareerHub on your local machine, follow these steps:
 - **Mark Blogs as Read:** Track your reading progress by marking blogs as read.
 - **Bookmark Blogs:** Save blogs that you want to revisit.
 
-## Key Concepts
 
-This project demonstrates the following React concepts:
-
-- **Reusable Components:** Designed for reuse to ensure consistency and efficiency.
-- **Higher-Order Components:** Enhance the functionality of existing components.
-- **State Management:** Managed using React hooks such as `useState` and `useEffect`.
-- **Prop Drilling:** Data is passed through multiple layers of components.
-- **Local Storage:** Job application data and blog status are stored in local storage.
-- **Custom Hooks:** Encapsulate reusable logic and state management.
-- **React Toast:** Provides notifications and alerts to users.
-- **React Router:** Used for navigating between different pages and routes in the application.
-- **`useLoader` Hook:** Manages loading states when navigating between routes.
 
 
