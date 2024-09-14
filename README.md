@@ -16,17 +16,6 @@ This project demonstrates the following React concepts:
 - **React Router:** Used for navigating between different pages and routes in the application.
 - **`useLoader` Hook:** Manages loading states when navigating between routes.
 
-## Features
-
-- **Job Listings:** Browse through a list of available jobs.
-- **Job Details:** Click on job listings to view detailed information.
-- **Apply for Jobs:** Submit applications for jobs you’re interested in.
-- **Applied Jobs Section:** View and manage jobs that you have applied for.
-- **Blog Section:** 
-  - **View Blogs:** Browse and read blog articles.
-  - **Mark as Read:** Mark blogs as read to keep track of your progress.
-  - **Bookmark Blogs:** Save blogs for future reference.
-
 ## Installation
 
 To set up CareerHub on your local machine, follow these steps:
@@ -43,6 +32,19 @@ To set up CareerHub on your local machine, follow these steps:
    npm install react-icons
 
    npm start
+
+
+## Features
+
+- **Job Listings:** Browse through a list of available jobs.
+- **Job Details:** Click on job listings to view detailed information.
+- **Apply for Jobs:** Submit applications for jobs you’re interested in.
+- **Applied Jobs Section:** View and manage jobs that you have applied for.
+- **Blog Section:** 
+  - **View Blogs:** Browse and read blog articles.
+  - **Mark as Read:** Mark blogs as read to keep track of your progress.
+  - **Bookmark Blogs:** Save blogs for future reference.
+
 
 ## Usage
 
