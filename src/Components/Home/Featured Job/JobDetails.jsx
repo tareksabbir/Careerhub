@@ -6,12 +6,24 @@ import calendar from "../../../assets/icons/calendar.png";
 import phone from "../../../assets/icons/phone.png";
 import email from "../../../assets/icons/email.png";
 import address from "../../../assets/icons/Location.png";
+import {
+  addDataToLs,
+  getDataFromLocalStorage,
+} from "../../../Hooks/localStorage";
 
 const JobDetails = () => {
   const { id } = useParams();
   const jobs = useLoaderData();
   const data = jobs.find((job) => job.id == id);
-  const notify = () => toast.success("Applied Successfully");
+  const notify = (id) => {
+    const dataFromLs = getDataFromLocalStorage();
+    if (!dataFromLs.includes(id)) {
+      toast.success("Applied Successfully");
+      addDataToLs(id);
+    }else{
+      toast.success("You Already Applied");
+    }
+  };
 
   return (
     <>
@@ -113,12 +125,12 @@ const JobDetails = () => {
               </div>
             </div>
             <div
-              onClick={notify}
+              onClick={() => notify(data.id)}
               className="w-full py-5 mt-5 font-bold text-center text-white border rounded bg-gradient-to-r from-purple-400 to-blue-400"
             >
               <Link>Apply Now</Link>
             </div>
-          
+
             <Toaster position="bottom-right" reverseOrder={false} />
           </div>
         </div>
